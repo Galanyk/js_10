@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.item-container {
+    width: 300px;
+    height: auto;
+    background-color: yellow;
+    border: 3px solid;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    right: 0;
+    position: absolute;
+    z-index: 10;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+#container {
+    width: 300px;
+    position: relative;
+}
+
+.item-container-active {
+    background-color: green;
+}
