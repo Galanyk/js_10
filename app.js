@@ -8,12 +8,13 @@ containerEl.addEventListener("click", changeColor);
 
 function onClick() {
     const data = inputEl.value.trim();
-    createElementButton(containerEl, 'button', 'button');
     if (data) {
+        createElementButton(containerEl, 'div', 'button');
         createElement(data, containerEl, 'div', 'item-container');
         clearValue(inputEl);
     } else {
         clearValue(inputEl);
+        alert("Enter text")
     }
 }
 
@@ -62,3 +63,9 @@ function changeColor(e) {
         }
     }
 }
+
+// function onEnter(e, some) {
+//     if (e.key === 'Enter') {
+//         onClick();
+//     }
+// }
