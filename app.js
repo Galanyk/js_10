@@ -63,9 +63,3 @@ function changeColor(e) {
         }
     }
 }
-
-// function onEnter(e, some) {
-//     if (e.key === 'Enter') {
-//         onClick();
-//     }
-// }
